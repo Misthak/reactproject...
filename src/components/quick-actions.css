@@ -1,0 +1,22 @@
+.quick-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.action-link {
+  padding: 9px 16px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  color: #333;
+  background: #fff;
+  text-decoration: none;
+}
+
+.action-link:hover,
+.action-link:focus-visible {
+  border-color: #536f9a;
+  color: #405d85;
+}

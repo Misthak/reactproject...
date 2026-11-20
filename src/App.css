@@ -1,0 +1,236 @@
+.dashboard {
+  width: 100%;
+  min-height: 100vh;
+  padding: 43px 20px 80px;
+  background: #ffffff;
+  text-align: center;
+}
+
+/* Dashboard Heading */
+
+.dashboard h1 {
+  font-family: Georgia, serif;
+  font-size: 46px;
+  font-weight: bold;
+  margin: 0;
+  color: #222;
+}
+
+.subtitle {
+  font-size: 17px;
+  color: #777;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+/* Quick Action Buttons */
+
+.quick-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 30px;
+}
+
+.quick-actions button {
+  height: 46px;
+  padding: 0 21px;
+  background: #fff;
+  border: 1px solid #aaa;
+  border-radius: 7px;
+  font-size: 15px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Student Profile */
+
+.profile-card {
+  width: 700px;
+  min-height: 229px;
+  margin: 0 auto 37px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info .label {
+  font-size: 13px;
+  font-weight: bold;
+  color: #555;
+  margin: 0 0 5px;
+}
+
+.profile-info h2 {
+  font-family: Georgia, serif;
+  font-size: 30px;
+  margin: 0 0 20px;
+}
+
+.details p {
+  display: flex;
+  margin: 12px 0;
+  font-size: 15px;
+}
+
+.details span {
+  width: 81px;
+  color: #888;
+}
+
+.profile-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-buttons button {
+  width: 140px;
+  height: 43px;
+  background: white;
+  border: 1px solid #aaa;
+  border-radius: 7px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Professor Cards */
+
+.professor-grid {
+  width: 925px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.professor-card {
+  height: 268px;
+  padding: 25px 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.number {
+  width: 42px;
+  height: 44px;
+  margin: 0 auto 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.professor-card .label {
+  font-size: 13px;
+  font-weight: bold;
+  color: #555;
+  margin: 0;
+}
+
+.professor-card h2 {
+  font-family: Georgia, serif;
+  font-size: 27px;
+  margin: 5px 0 15px;
+}
+
+.professor-card p {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.professor-card .department {
+  color: #888;
+}
+
+.professor-card a {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Responsive Design */
+
+@media (max-width: 950px) {
+  .profile-card {
+    width: 90%;
+  }
+
+  .professor-grid {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .dashboard h1 {
+    font-size: 34px;
+  }
+
+  .profile-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+  .professor-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-actions {
+    flex-wrap: wrap;
+  }
+}
+/* Counter Section */
+
+.counter-section {
+  margin: 50px auto 0;
+  text-align: center;
+  padding: 30px;
+}
+
+.counter-section h2 {
+  font-family: Georgia, serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.count-number {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.counter-buttons button {
+  padding: 12px 22px;
+  border: 1px solid #aaa;
+  border-radius: 7px;
+  background-color: white;
+  color: #333;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.counter-buttons button:hover {
+  background-color: #eeeeee;
+}

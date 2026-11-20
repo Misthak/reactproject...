@@ -1,0 +1,27 @@
+.navbar {
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  color: #777;
+}

@@ -1,0 +1,71 @@
+.student-profile {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 16px;
+  width: min(100%, 565px);
+  min-height: 185px;
+  margin: 0 auto;
+  padding: 24px;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  background: #fff;
+}
+
+.profile-kicker {
+  margin: 0 0 4px;
+  color: #555;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.profile-main h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+}
+
+.profile-details {
+  display: grid;
+  gap: 7px;
+  margin: 14px 0 0;
+}
+
+.profile-detail {
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  gap: 8px;
+  font-size: 0.85rem;
+}
+
+.profile-detail dt {
+  color: #777;
+}
+
+.profile-detail dd {
+  margin: 0;
+}
+
+.profile-actions {
+  display: grid;
+  gap: 7px;
+}
+
+.profile-button {
+  min-width: 112px;
+  padding: 9px 12px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  color: #222;
+  background: #fff;
+}
+
+@media (max-width: 500px) {
+  .student-profile {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+}

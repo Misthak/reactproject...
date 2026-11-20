@@ -1,0 +1,62 @@
+.professor-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: center;
+  min-height: 216px;
+  padding: 20px 14px;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  background: #fff;
+  text-align: center;
+}
+
+.professor-number {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 12px;
+  place-items: center;
+  border-radius: 4px;
+  color: #334d70;
+  background: #edf0f4;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.professor-label {
+  margin: 0 0 4px;
+  color: #555;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.professor-card h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.3rem;
+}
+
+.professor-name {
+  margin: 12px 0 0;
+  font-size: 0.9rem;
+}
+
+.professor-department {
+  margin: 7px 0 16px;
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.professor-email {
+  margin-top: auto;
+  color: #405d85;
+  font-size: 0.75rem;
+  overflow-wrap: anywhere;
+  text-decoration: none;
+}
+
+.professor-email:hover {
+  text-decoration: underline;
+}
